@@ -126,6 +126,73 @@ nav ul li{
     margin-bottom: 15px;
 }
 
+/*Person start*/
+.main-person{
+    height: 950px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    padding-left: 40px;
+}
+
+.person-text{
+    padding-left: 250px;
+    padding-right: 40px;
+    padding-top: 40px
+}
+
+.person-text h1{
+    font-weight: 700;
+    font-size: 40px;
+    padding-right: 263px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    border-left: 4px solid #FF900E ;
+}
+
+.person-text p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.person-text .desktop{
+    padding: 20px 40px;
+    margin: 15px 30px 15px 0px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 90px #eeeeee;
+}
+
+.person-text .desktop h2{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+
+.person-text .desktop p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.person-img img{
+    height:900px;
+}
+
+#person-button{
+    position: relative;
+    right: 700px;
+    padding: 20px 15px;
+}
+
+#person-button span{
+    font-weight: 700;
+    font-size: 35px;
+    display: block;
+}
+
+
 /*=================main style end================*/
 
 
