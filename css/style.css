@@ -8,7 +8,7 @@
     border: none;
     color: white;
     background-color:#FF900E;
-    padding: 13px 18px;
+    padding: 15px 18px;
     font-weight: 600;
     font-size: 15px;
     border-radius: 5px;
@@ -68,8 +68,64 @@ nav ul li{
 .header-img{
     margin-top: 35px;
 }
-
 /*=================Header style end================*/
 
+/*=================main style start================*/
+.section1{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.main-container1{
+    height:600px ;
+    width: 1350px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+
+.team-img img{
+    height: 290px;
+    width: 320px;
+}
+
+.team-text{
+    height: 100px;
+    padding-left: 55px;
+    margin-top: 150px;
+}
+
+.team-text h1{
+    font-weight: 700;
+    font-size: 45px;
+    padding-right: 131px;
+    margin-bottom: 30px;
+}
+
+#sp1{
+    color:#727272;
+}
+#sp2{
+   color: #131313;
+}
+#sp3{
+    color:#FF900E ;
+}
+
+.team-text p{
+    color:#727272 ;
+    font-weight: 400;
+    font-size: 14px;
+    padding-right: 185px;
+    margin-bottom: 15px;
+}
+
+/*=================main style end================*/
 
 
