@@ -126,7 +126,8 @@ nav ul li{
     margin-bottom: 15px;
 }
 
-/*Person start*/
+/*=========Person start===========*/
+
 .main-person{
     height: 950px;
     margin-top: 50px;
@@ -191,8 +192,94 @@ nav ul li{
     font-size: 35px;
     display: block;
 }
+/*============Person end===========*/
+.main-about{
+    margin-top: 30px;
+}
 
+.some{
+    margin-left: 250px; 
+    margin-top: 80px;
+    width: 500px; 
+}
+
+.some h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.some p{
+    font-size: 15px;
+    font-weight: 600px;
+    margin-top: 15px;
+}
+
+.info{
+    width: 1400px;
+    margin-top: 80px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-right: 70px;
+    margin-left: 230px;
+}
+
+
+.boxes{
+    border: 1px solid green;
+    margin: 10px 20px;
+    padding: 50px 35px;
+    border-radius: 5px;
+}
+
+.boxes img{
+    height:35px;
+}
+
+.boxes h1{
+    font-size: 40px;
+    font-weight: 600px;
+}
+
+.boxes p{
+    font-size: 20px;
+    font-weight: 800;
+    color: #727272;
+}
+
+.spons{
+    text-align: center;
+    height: 300px;
+    margin-top: 130px;
+}
+
+.spons h1{
+    font-size: 55px;
+    font-weight: 900;
+    margin: 20px;
+}
+
+.spons p{
+    color: #979393;
+    font-size: 15px;
+    font-weight: 600;
+    padding:0px 660px;
+    margin-top: 35px;
+}
+
+.spons img{
+    margin-top: 80px;
+    padding: 0px 70px;
+}
 
 /*=================main style end================*/
+
+footer{
+    padding: 25px 20px;
+    background-color:#FFF4E7;
+    text-align: center;
+    margin: 50px 300px;
+    border-radius: 10px;
+}
 
 
